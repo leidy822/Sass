@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header h1 {
+  padding: 2rem;
+  background-color: #ececc1;
+  font-family: fantasy;
+  color: #eb3beb;
+  text-align: center; }
+
+main h2 {
+  font-size: 20px;
+  color: #7c067c;
+  text-align: center; }
+
+main p {
+  background-color: #ececc1;
+  color: black;
+  font-family: cursive; }
+  main p:hover {
+    color: #eb3beb; }

@@ -1,0 +1,44 @@
+@import "./variables";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  h1 {
+    padding: $padd;
+    background-color: $colorbag;
+    font-family: fantasy;
+    color: $colorwords2;
+    text-align: center;
+  }
+}
+
+main {
+  h2 {
+    font-size: $sizewords;
+    color: $colorwords;
+    text-align: center;
+  }
+  p {
+    background-color: $colorbag;
+    color: black;
+    font-family: cursive;
+    text-align: justify;
+    &:hover {
+      color: #eb3beb;
+    }
+  }
+}
+
+footer{
+  text-align: right;
+  
+  h3{
+    color: $colorwords;    
+  }
+}
+
