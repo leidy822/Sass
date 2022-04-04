@@ -5,3 +5,10 @@ $colorbag: #ececc1;
 $sizewords: 20px;
 $spacing: 0.3px;
 $padd: 2rem;
+
+
+@mixin theme {
+    background-color: $colorwords ;
+    font-size: 1em;
+    line-height: normal;
+  }

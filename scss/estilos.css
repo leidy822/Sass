@@ -1,8 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  background-color: #7c067c;
+  font-size: 1em;
+  line-height: normal;
 }
 
 header h1 {
@@ -30,11 +29,23 @@ main p:hover {
   color: #eb3beb;
 }
 
+.button-basic, .button-report {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: #ececc1;
+}
+
 footer {
   text-align: right;
 }
 
 footer h3 {
-  color: #7c067c;
+  color: #ffffff;
 }
 /*# sourceMappingURL=estilos.css.map */
